@@ -1,0 +1,9 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 py-12">
+  {% for row in rows %}
+    <div class="overflow-hidden group relative aspect-[4/3]">
+      <div class="h-full w-full transition-transform duration-300 ease-in-out group-hover:scale-105 grayscale group-hover:grayscale-0">
+        {{ row.content }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

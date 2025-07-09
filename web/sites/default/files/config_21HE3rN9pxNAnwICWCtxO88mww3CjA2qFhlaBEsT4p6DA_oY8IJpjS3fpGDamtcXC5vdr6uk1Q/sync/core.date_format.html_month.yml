@@ -1,0 +1,10 @@
+uuid: 8c7e92e8-9f5d-4e6c-9fdf-f53e6e60f911
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
+id: html_month
+label: 'HTML Month'
+locked: true
+pattern: Y-m

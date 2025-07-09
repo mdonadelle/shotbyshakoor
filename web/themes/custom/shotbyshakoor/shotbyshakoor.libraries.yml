@@ -1,0 +1,9 @@
+shotbyshakoor:
+  version: 1.x
+  css:
+    theme:
+      css/tailwind.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,22 @@
+uuid: b6745618-a1f4-4700-9887-c6b7e80ff67b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - shotbyshakoor
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: shotbyshakoor_help
+theme: shotbyshakoor
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

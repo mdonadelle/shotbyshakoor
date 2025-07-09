@@ -1,0 +1,22 @@
+uuid: 80de93c2-5f78-43c5-9454-1534485363dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - shotbyshakoor
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: shotbyshakoor_powered
+theme: shotbyshakoor
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

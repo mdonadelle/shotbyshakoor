@@ -1,0 +1,22 @@
+uuid: 35dc4412-0bf0-4f66-9bc5-939547cc1a67
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - shotbyshakoor
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: shotbyshakoor_content
+theme: shotbyshakoor
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

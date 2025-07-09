@@ -1,0 +1,19 @@
+uuid: b2bf08f5-5661-47ff-9ea8-3c28f15b503f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallery
+  module:
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

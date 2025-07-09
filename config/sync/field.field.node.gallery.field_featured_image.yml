@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+  content:
+    - node.gallery
+id: node.gallery.field_featured_image
+field_name: field_featured_image
+entity_type: node
+bundle: gallery
+label: 'Featured Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+field_type: entity_reference

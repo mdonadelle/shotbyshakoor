@@ -1,0 +1,4 @@
+name: shotbyshakoor
+recipe: drupal11
+config:
+  webroot: web

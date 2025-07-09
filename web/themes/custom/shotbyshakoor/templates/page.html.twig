@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head-placeholder token="{{ placeholder_token }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token }}">
+  </head>
+  <body class="font-sans">
+    <header class="p-4 border-b">
+      {{ page.header }}
+    </header>
+    
+    <main class="min-h-screen bg-white text-black">
+  <section class="flex flex-col items-center justify-center h-screen text-center px-6">
+    <h1 class="text-5xl md:text-7xl font-bold tracking-tight uppercase">Shot by Shakoor</h1>
+    <p class="text-lg mt-4 max-w-xl text-gray-500">Capturing the culture through the lens — one moment at a time.</p>
+    <a href="/gallery" class="mt-8 inline-block border border-black text-black px-6 py-2 hover:bg-black hover:text-white transition">View Gallery</a>
+  </section>
+
+  <section class="p-10">
+    {{ page.content }}
+  </section>
+</main>
+
+    <footer class="p-4 border-t text-sm text-gray-500">
+      {{ page.footer }}
+    </footer>
+  </body>
+</html>

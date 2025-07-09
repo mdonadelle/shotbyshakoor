@@ -1,0 +1,1 @@
+console.log('shotbyshakoor theme loaded');

@@ -1,0 +1,13 @@
+name: shotbyshakoor
+type: theme
+description: 'Custom black & white photography theme using TailwindCSS.'
+package: Custom
+core_version_requirement: ^10 || ^11
+base theme: classy
+libraries:
+  - shotbyshakoor/shotbyshakoor
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  content: 'Content'
+  footer: 'Footer'
